@@ -1,0 +1,12 @@
+version: '3.1'
+
+services:
+
+  althingi-store-db:
+    container_name: althingi-store-db
+    build:
+        context: .
+        dockerfile: Dockerfile
+    ports:
+        - 27017:27017
+    restart: always
