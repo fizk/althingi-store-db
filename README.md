@@ -1,1 +1,3 @@
 # althingi-store-db
+
+MongoDB
