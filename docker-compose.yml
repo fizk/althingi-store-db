@@ -2,8 +2,8 @@ version: '3.1'
 
 services:
 
-  althingi-store-db:
-    container_name: althingi-store-db
+  run:
+    container_name: local-althingi-store-db-run
     build:
         context: .
         dockerfile: Dockerfile
